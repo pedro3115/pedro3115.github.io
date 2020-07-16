@@ -6,22 +6,47 @@
   <title>Koji Personal Website</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/b2c6be8cbb.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="responsive.css">
-  <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
   <header>
-    <img src="name-banner.jpg">
+    <div class="logo">
+      <h1 class="name">Koji Yamada</h1>
+      <h3 class="personal-website">Personal Website</h3>
+    </div>
+
     <div class="menu">
-      <a class="menu-item" href="#"><i class="far fa-address-card"></i> PROFILE</a>
-      <a class="menu-item" href="#"><i class="fas fa-chart-line"></i> ACTIVITY</a>
-      <a class="menu-item" href="#"><i class="fab fa-youtube"></i> SNS</a>
+      <a class="menu-item" href="#profile"><i class="far fa-address-card"></i> PROFILE</a>
+      <a class="menu-item" href="#activity"><i class="fas fa-chart-line"></i> ACTIVITY</a>
+      <a class="menu-item" href="#sns"><i class="fab fa-youtube"></i> SNS</a>
     </div>
   </header>
   <main>
-    <div class="">
-      <h2>PROFILE</h2>
+    <div class="profile container" id="profile">
+      <h2 class="heading">PROFILE</h2>
+      <img class="face-photo" src="face-photo.jpg">
+      <div class="profile-text">
+        <p>1999年1月31日生。21歳の現役大学生。大学受験と浪人をきっかけに自分と真剣に向き合い始める。大学入学後、カルガリー大学への語学留学、HTML&CSSによるwebデザインスキルの習得などを経て、現在はYouTubeにて行動経済学に関する情報を発信中。</p>
+      </div>
+      <a class="more" href="https://note.com/koji_3115/n/n12f434f6b16c" target="blank"><i class="fas fa-arrow-circle-right"></i> 詳しく見る(note記事)</a>
+    </div>
+    <div class="activity container" id="activity">
+      <h2 class="heading">ACTIVITY</h2>
+      <p class="activity-text">現在はYouTubeとnoteにて行動経済学についての情報を発信しています。（当サイトは今後バージョンアップしていきます）</p>
+    </div>
+    <div class="sns container" id="sns">
+      <h2 class="heading">SNS</h2>
+      <div class="sns-item">
+        <i class="fab fa-twitter-square"></i> <a href="https://twitter.com/zicozico3115" target="_blank">https://twitter.com/zicozico3115</a>
+      </div>
+      <div class="sns-item">
+        <i class="fab fa-youtube fa-youtube-red"></i> <a href="https://www.youtube.com/channel/UCaNqB_8UoadGUOAlQuQkpMg?view_as=subscriber" target="_blank"> TEXエンターテインメント</a>
+      </div>
+      <div class="sns-item">
+        <img class="note-icon" src="note.jpg" alt=""> <a href="https://note.com/koji_3115" target="_blank">https://note.com/koji_3115</a>
+      </div>
     </div>
   </main>
   <footer>
