@@ -39,12 +39,12 @@ a {
 .menu{
   display:flex;
   justify-content: flex-end;
-  font-size: 18px;
   background-color:white;
 }
 
 .menu-item{
-  line-height: 50px;
+  line-height: 75px;
+  font-size:18px;
   color: #6c7b82;
   margin:auto 25px;
   transition:all 0.2s;
@@ -56,7 +56,7 @@ a {
 
 .fixed {
   position: fixed;
-  border-bottom: 1px solid #f2f2f3;
+  border-bottom: 1px solid #e2e2e3;
   top: 0;
   width:100%;
   z-index: 10;
@@ -68,8 +68,8 @@ main{
 
 .heading{
   font-family: 'Lato', sans-serif;
-  font-size:50px;
-  line-height:70px;
+  font-size:45px;
+  line-height:65px;
 }
 
 .container{
