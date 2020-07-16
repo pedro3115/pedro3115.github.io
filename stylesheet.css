@@ -22,12 +22,25 @@ a {
   box-sizing: border-box;
 }
 
+.logo{
+  margin:30px;
+}
+
+.name{
+  font-family: 'Libre Baskerville', serif;
+  color:#0d449e;
+}
+
+.personal-website{
+  font-family: 'Libre Baskerville', serif;
+  color:#6c7b82;
+}
+
 .menu{
   display:flex;
   justify-content: flex-end;
   font-size: 18px;
   background-color:white;
-  border-top:1px solid #c5d9e7;
 }
 
 .menu-item{
@@ -43,14 +56,86 @@ a {
 
 .fixed {
   position: fixed;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f2f2f3;
   top: 0;
   width:100%;
   z-index: 10;
 }
 
 main{
-  height:2000px;
+  text-align: center;
+}
+
+.heading{
+  font-family: 'Lato', sans-serif;
+  font-size:50px;
+  line-height:70px;
+}
+
+.container{
+  padding:50px 0;
+}
+
+.profile{
+  background-color: #f3f3f7;
+}
+
+.face-photo{
+  display:block;
+  margin:30px auto;
+  width:240px;
+  border-radius:50%;
+}
+
+.profile-text{
+  color: #6c7b82;
+  width:50%;
+  margin:0 auto 20px auto;
+}
+
+.more{
+  display:inline-block;
+  color:white;
+  border-radius: 25px;
+  padding:10px 20px;
+  background-color: #0d449e;
+}
+
+.activity-text{
+  padding-top:30px;
+  width:75%;
+  margin:0 auto;
+  height:500px;
+}
+
+.channel-banner{
+  display: block;
+  width:30%;
+  margin:0 auto;
+}
+
+.sns-item{
+  margin-top:25px;
+}
+
+.sns-item a{
+  color:black;
+  text-decoration: underline;
+}
+
+.fa-twitter-square{
+  color:#1DA1F2;
+  font-size: 24px;
+}
+
+.fa-youtube-red{
+  color:#DA1725;
+  font-size: 24px;
+}
+
+.note-icon{
+  display:inline-block;
+  width:24px;
 }
 
 footer{
