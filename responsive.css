@@ -4,12 +4,17 @@
 
 @media(max-width:670px){
   p,a{
-    font-size:12px;
+    font-size:14px;
   }
 
   .menu{
     justify-content: space-around;
-    font-size:14px;
+    font-size:18px;
     border-top:none;
   }
+
+  .face-photo{
+    width:180px;
+  }
+
 }
