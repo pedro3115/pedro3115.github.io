@@ -10,7 +10,10 @@
 
   .menu{
     justify-content: space-around;
-    border-top:none;
+  }
+  
+  .menu-item{
+    font-size:14px;
   }
 
   .face-photo{
