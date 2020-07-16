@@ -5,6 +5,7 @@
 @media(max-width:670px){
   p,a{
     font-size:14px;
+    line-height:30px;
   }
 
   .menu{
@@ -15,6 +16,10 @@
 
   .face-photo{
     width:180px;
+  }
+  
+  .profile-text{
+    width:75%;
   }
 
 }
