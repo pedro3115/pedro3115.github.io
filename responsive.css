@@ -11,7 +11,7 @@
   .menu{
     justify-content: space-around;
   }
-  
+
   .menu-item{
     font-size:14px;
   }
@@ -19,8 +19,16 @@
   .face-photo{
     width:180px;
   }
-  
+
   .profile-text{
+    width:75%;
+  }
+
+  .cafe-project-text{
+    width:75%;
+  }
+
+  .cafe-banner{
     width:75%;
   }
 
