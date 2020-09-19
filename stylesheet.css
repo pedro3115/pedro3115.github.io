@@ -97,7 +97,7 @@ main{
 }
 
 .cafe-banner{
-  width:50%;
+  width:80%;
   margin-top: 30px;
 }
 
@@ -105,11 +105,6 @@ main{
   padding:25px 0;
   width:50%;
   margin:0 auto;
-}
-
-.lines{
-  font-size:20px;
-  line-height:50px;
 }
 
 .more-gold{
